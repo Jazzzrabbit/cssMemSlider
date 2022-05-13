@@ -210,11 +210,14 @@
         padding: 0 0.5rem;
     }
     .slider {
+        max-width: 30rem;
+        max-height: 20rem;
         box-shadow: 0.3rem 0.3rem 0.3rem;
     }
     .slider__panel {
         display: flex;
         flex-direction: column-reverse;
+        max-width: 30rem;
     }
     .text__items {
         width: 100%;
@@ -227,9 +230,6 @@
         width: 2rem;
         height: 2rem;
         margin-left: 0.1rem;
-    }
-    .slider {
-        max-width: 30rem;
     }
     .slider__item-image {
         max-width: 30rem;
