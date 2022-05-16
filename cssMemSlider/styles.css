@@ -166,7 +166,7 @@
     width: 15rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 47.9375rem) {
     .slider {
         max-width: 45rem;
         max-height: 30rem;
@@ -186,7 +186,7 @@
     }
 }
 
-@media (max-width: 541px) {
+@media (max-width: 33.8125rem) {
     .container {
         padding: 0 1rem;
     }
@@ -204,11 +204,12 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 25.875rem) {
     .container {
         display: flex;
         flex-direction: column;
         padding: 0 0.5rem;
+        /* margin-top: 5rem; */
     }
     .slider {
         max-width: 30rem;
@@ -238,7 +239,7 @@
     }
 }
 
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 64rem) and (orientation: landscape) {
     .slider {
         max-width: 55rem;
         max-height: 35rem;
@@ -253,7 +254,7 @@
     }
 }
 
-@media (max-width: 812px) and (orientation: landscape) {
+@media (max-width: 50.75rem) and (orientation: landscape) {
     .container {
         display: flex;
         flex-direction: column;
@@ -282,7 +283,7 @@
     }   
 }
 
-@media (max-width: 736px) and (orientation: landscape) {
+@media (max-width: 46rem) and (orientation: landscape) {
     .slider {
         max-width: 40rem;
         max-height: 20rem;
@@ -299,7 +300,7 @@
     }   
 }
 
-@media (max-width: 667px) and (orientation: landscape) {
+@media (max-width: 41.6875rem) and (orientation: landscape) {
     .slider {
         max-width: 37rem;
         max-height: 17rem;
