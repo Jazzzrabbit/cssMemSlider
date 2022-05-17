@@ -209,7 +209,6 @@
         display: flex;
         flex-direction: column;
         padding: 0 0.5rem;
-        /* margin-top: 5rem; */
     }
     .slider {
         max-width: 30rem;
@@ -220,10 +219,11 @@
         display: flex;
         flex-direction: column-reverse;
         max-width: 30rem;
+        margin: 0;
     }
     .text__items {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .controls {
         justify-content: center;
